@@ -14,14 +14,16 @@ A Flask web application that predicts total receipts based on year and month sel
 - Docker (optional)
 
 ## File Structure
-- data
+```
+-- data
     -- data_daily.csv (download data)
-- templates
+-- templates
     -- mainPage.html (Web page file that is rendered by app.py)
-- app.py (application starter)
-- model.py (model structure)
-- test.py (testing inference code)
-- train.py (training code that generates and stores model weight)
+-- app.py (application starter)
+-- model.py (model structure)
+-- test.py (testing inference code)
+-- train.py (training code that generates and stores model weight)
+```
 
 ## Quick Start
 
